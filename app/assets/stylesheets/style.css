@@ -7479,7 +7479,7 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: calc(100vh - 117px);
+  height: calc(108vh - 117px);
   min-height: 700px;
   position: relative; }
   .hero-wrap.hero-wrap-2 {

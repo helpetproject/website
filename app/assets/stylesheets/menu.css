@@ -25,6 +25,10 @@
     margin-bottom: -23% !important;
 
   }
+  .welcome_text{
+    margin-top: -3% !important;
+  }
+
 }
 
 @media (min-width: 576px) {
@@ -55,6 +59,10 @@
     margin-top: 0% !important;
     margin-bottom: 0% !important;
   }
+
+  .welcome_text{
+    margin-top: 19% !important;
+  }
 }
 @media (min-width: 768px) {
   .navbar-brand
@@ -71,6 +79,7 @@
       height: 15%;
     }
 
+
   }
 @media (min-width: 992px) {
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
@@ -86,6 +95,10 @@
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 1.2em !important;
   }
+
+  .welcome_text{
+      margin-top: 5% !important;
+  }
 }
 
 @media (min-width: 1336px) {
@@ -97,19 +110,18 @@
     padding-right: 20px;
     color: #034f52;
     font-weight: 400;
-    opacity: 1 !important; };
+    opacity: 1 !important; }
 .logo_media{
     margin-top: 36%;
-  };
-
-.navbar-size{
-    height: 20%;
-  };
+  }
 }
 
 @media (min-width: 1600px) {
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 1.2em !important;
+  }
+  .welcome_text{
+    margin-top: 19% !important;
   }
 }
 
