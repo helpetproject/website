@@ -7299,7 +7299,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.4;
-  color: #000;
+  color: #01a0a3;
   font-family: "Dosis", Arial, sans-serif;
   font-weight: 400; }
 
@@ -9168,7 +9168,7 @@ textarea.form-control {
     stroke-dashoffset: -136px; } }
 
 .cards-centers{
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -9202,4 +9202,36 @@ textarea.form-control {
 #donate_section{
   margin-top: 12% !important;
   margin-left: -8% !important
+}
+
+#fontawesome_hospital{
+  color: #01a0a3;
+}
+
+#fontawesome_paw_medkit{
+  color: #fff;
+}
+
+.white-text{
+  color: #fff;
+}
+
+.blue-text{
+  color: #01a0a3
+}
+
+h2 { width:100%; text-align:center; border-bottom: 3px solid #01a0a3; line-height:0.1em; margin:10px 0 20px; }
+h2 span { background:#fff; padding:0 10px; color: #01a0a3}
+
+.margin_pets{
+  margin: 0.2% 0.2% 0.2% 0.2%;
+}
+
+.gallery{
+  width: 100% !important;
+}
+
+.bg-pets{
+  background: url('/assets/bg1.jpg') no-repeat center;
+  background-size:100% 100%;
 }
