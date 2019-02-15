@@ -11,7 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require turbolinks
 //= require jquery.min.js
 //= require jquery-migrate-3.0.1.min.js
 //= require popper.min.js
@@ -26,5 +25,4 @@
 //= require bootstrap-datepicker.js
 //= require jquery.timepicker.min.js
 //= require scrollax.min.js
-//= require google-map.js
 //= require main.js
