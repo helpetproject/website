@@ -7804,10 +7804,10 @@ h1, h2, h3, h4, h5,
         margin-bottom: 40px; } }
 
 .volunteer h3 {
-  color: #fff; }
+  color: #01a0a3; }
 
 .volunter-form .form-control {
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  /* border: 2px solid rgba(255, 255, 255, 0.7); */
   height: 58px !important;
   background: transparent !important;
   color: rgba(255, 255, 255, 0.8) !important;
@@ -9234,4 +9234,18 @@ h2 span { background:#fff; padding:0 10px; color: #01a0a3}
 .bg-pets{
   background: url('/assets/bg1.jpg') no-repeat center;
   background-size:100% 100%;
+}
+
+.bg-happy_endings{
+  background: url('/assets/bg2.jpg') no-repeat center;
+  background-size:100% 100%;
+}
+
+.happy_endings_tile{
+  background:#020202 !important;
+  color: #fff !important
+}
+
+.happy_endings_bar{
+  border-bottom: 3px solid #fff !important;
 }
