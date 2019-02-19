@@ -79,7 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  }
 
 abbr[title],
 abbr[data-original-title] {
@@ -1570,6 +1571,7 @@ pre {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+  font-family: "Raleway Light";
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -7334,7 +7336,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #fff; }
+      color: #00a3a6; }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -7810,25 +7812,25 @@ h1, h2, h3, h4, h5,
   /* border: 2px solid rgba(255, 255, 255, 0.7); */
   height: 58px !important;
   background: transparent !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: #01a0a3 !important;
   font-size: 18px;
-  border-radius: 0px;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);}
   .volunter-form .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control::-moz-placeholder {
     /* Firefox 19+ */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control:-ms-input-placeholder {
     /* IE 10+ */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control:-moz-placeholder {
     /* Firefox 18- */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control:focus, .volunter-form .form-control:active {
-    border-color: #fff; }
+    border-color: #01a0a3; }
 
 .volunter-form textarea.form-control {
   height: inherit !important; }
@@ -8323,7 +8325,9 @@ textarea.form-control {
   .ftco-footer .ftco-heading-2 {
     font-size: 17px;
     font-weight: 400;
-    color: #000; }
+    color: #000;
+    width: 100%;
+    text-align: center; }
   .ftco-footer .block-21 .text .heading {
     font-size: 18px; }
     .ftco-footer .block-21 .text .heading a {
@@ -9220,8 +9224,8 @@ textarea.form-control {
   color: #01a0a3
 }
 
-h2 { width:100%; text-align:center; border-bottom: 3px solid #01a0a3; line-height:0.1em; margin:10px 0 20px; }
-h2 span { background:#fff; padding:0 10px; color: #01a0a3}
+.h2_titles{ width:100%; text-align:center; border-bottom: 3px solid #01a0a3; line-height:0.1em; margin:10px 0 20px; }
+.span_titles{ background:#fff; padding:0 10px; color: #01a0a3}
 
 .margin_pets{
   margin: 0.2% 0.2% 0.2% 0.2%;
@@ -9248,4 +9252,8 @@ h2 span { background:#fff; padding:0 10px; color: #01a0a3}
 
 .happy_endings_bar{
   border-bottom: 3px solid #fff !important;
+}
+
+.p_contact{
+  font-size: 1.3em !important;
 }
