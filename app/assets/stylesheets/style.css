@@ -79,7 +79,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  }
 
 abbr[title],
 abbr[data-original-title] {
@@ -472,6 +473,10 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+  @media (min-width: 1336px) {
+    .container {
+      max-width: 80%; } }
+
 
 .container-fluid {
   width: 100%;
@@ -1566,6 +1571,7 @@ pre {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+  font-family: "Raleway Light";
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4623,7 +4629,7 @@ button.close {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4643,7 +4649,7 @@ button.close {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4660,7 +4666,7 @@ button.close {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4689,7 +4695,7 @@ button.close {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -7295,7 +7301,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.4;
-  color: #000;
+  color: #01a0a3;
   font-family: "Dosis", Arial, sans-serif;
   font-weight: 400; }
 
@@ -7303,15 +7309,16 @@ h1, h2, h3, h4, h5,
   color: #f86f2d !important; }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  /* background: transparent !important; */
   position: absolute;
   left: 0;
   right: 0;
   z-index: 3;
-  top: 10px; }
+  /* top: 10px;  */
+  }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000 !important;
+      background: #fff !important;
       top: 0;
       position: relative; } }
   .ftco-navbar-light .navbar-brand {
@@ -7320,16 +7327,16 @@ h1, h2, h3, h4, h5,
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 16px;
+    /* font-size: 1.4em; */
     padding-top: .9rem;
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: rgba(255, 255, 255, 0.8);
+    color: #034f52;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #fff; }
+      color: #00a3a6; }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -7383,12 +7390,13 @@ h1, h2, h3, h4, h5,
     color: #f86f2d; }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #000 !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
     font-size: 16px;
-    letter-spacing: .1em; }
+    letter-spacing: .1em;
+    margin-top: 7%;}
   .ftco-navbar-light.scrolled {
     position: fixed;
     right: 0;
@@ -7441,7 +7449,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
-      color: #000 !important; }
+      color: #034f52 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: #f86f2d !important; }
     .ftco-navbar-light.scrolled.awake {
@@ -7473,7 +7481,7 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: calc(100vh - 117px);
+  height: calc(108vh - 117px);
   min-height: 700px;
   position: relative; }
   .hero-wrap.hero-wrap-2 {
@@ -7493,9 +7501,9 @@ h1, h2, h3, h4, h5,
   height: 700px; }
   .slider-text h1 {
     font-size: 60px;
-    color: #fff;
+    color: #000;
     line-height: 1.2;
-    font-weight: 400; }
+    font-weight: bold; }
     @media (max-width: 991.98px) {
       .slider-text h1 {
         font-size: 40px; } }
@@ -7704,11 +7712,11 @@ h1, h2, h3, h4, h5,
     padding: 30px;
     color: rgba(0, 0, 0, 0.7); }
     .ftco-intro .block-18.color-1 {
-      background: #f86f2d; }
+      background: #fff; }
     .ftco-intro .block-18.color-2 {
-      background: #fa8f3d; }
+      background: #02a1a4; }
     .ftco-intro .block-18.color-3 {
-      background: #faaa3a; }
+      background: #1d1f1f; }
     .ftco-intro .block-18 .text strong {
       font-size: 60px;
       color: #000;
@@ -7798,31 +7806,31 @@ h1, h2, h3, h4, h5,
         margin-bottom: 40px; } }
 
 .volunteer h3 {
-  color: #fff; }
+  color: #01a0a3; }
 
 .volunter-form .form-control {
-  border: 2px solid rgba(255, 255, 255, 0.7);
+  /* border: 2px solid rgba(255, 255, 255, 0.7); */
   height: 58px !important;
   background: transparent !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+  color: #01a0a3 !important;
   font-size: 18px;
-  border-radius: 0px;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);}
   .volunter-form .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control::-moz-placeholder {
     /* Firefox 19+ */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control:-ms-input-placeholder {
     /* IE 10+ */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control:-moz-placeholder {
     /* Firefox 18- */
-    color: rgba(255, 255, 255, 0.8); }
+    color: #5a5959; }
   .volunter-form .form-control:focus, .volunter-form .form-control:active {
-    border-color: #fff; }
+    border-color: #01a0a3; }
 
 .volunter-form textarea.form-control {
   height: inherit !important; }
@@ -8317,7 +8325,9 @@ textarea.form-control {
   .ftco-footer .ftco-heading-2 {
     font-size: 17px;
     font-weight: 400;
-    color: #000; }
+    color: #000;
+    width: 100%;
+    text-align: center; }
   .ftco-footer .block-21 .text .heading {
     font-size: 18px; }
     .ftco-footer .block-21 .text .heading a {
@@ -9160,3 +9170,90 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.cards-centers{
+  font-size: 2em;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Raleway Light";
+  src: url(/assets/Raleway-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway Medium";
+  src: url(/assets/Raleway-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway Bold";
+  src: url(/assets/Raleway-Bold.ttf) format("truetype");
+}
+
+.raleway_bold{
+  font-family: "Raleway Bold"
+}
+
+.raleway_medium{
+  font-family: "Raleway Medium";
+}
+
+.raleway_light{
+  font-family: "Raleway Light";
+}
+
+#donate_section{
+  margin-top: 12% !important;
+  margin-left: -8% !important
+}
+
+#fontawesome_hospital{
+  color: #01a0a3;
+}
+
+#fontawesome_paw_medkit{
+  color: #fff;
+}
+
+.white-text{
+  color: #fff;
+}
+
+.blue-text{
+  color: #01a0a3
+}
+
+.h2_titles{ width:100%; text-align:center; border-bottom: 3px solid #01a0a3; line-height:0.1em; margin:10px 0 20px; }
+.span_titles{ background:#fff; padding:0 10px; color: #01a0a3}
+
+.margin_pets{
+  margin: 0.2% 0.2% 0.2% 0.2%;
+}
+
+.gallery{
+  width: 100% !important;
+}
+
+.bg-pets{
+  background: url('/assets/bg1.jpg') no-repeat center;
+  background-size:100% 100%;
+}
+
+.bg-happy_endings{
+  background: url('/assets/bg2.jpg') no-repeat center;
+  background-size:100% 100%;
+}
+
+.happy_endings_tile{
+  background:#020202 !important;
+  color: #fff !important
+}
+
+.happy_endings_bar{
+  border-bottom: 3px solid #fff !important;
+}
+
+.p_contact{
+  font-size: 1.3em !important;
+}

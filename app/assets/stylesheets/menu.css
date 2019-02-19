@@ -1,0 +1,131 @@
+.navbar-size{
+    height: 15%;
+  };
+
+.logo-circle{
+  background-color: #fff;
+  border-radius: 38%;
+  width: 10%;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.white-circle .logo {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+@media (min-width: 300px) {
+  .white-circle .logo {
+    width: 3.8em !important;
+    height: 3.8em !important;
+    margin-left: 20%;
+    margin-top: -23% !important;
+    margin-bottom: -23% !important;
+
+  }
+  .welcome_text{
+    margin-top: -3% !important;
+  }
+
+}
+
+@media (min-width: 576px) {
+  .navbar-brand
+      {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 0.97em;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #034f52;
+    font-weight: 400;
+    opacity: 1 !important; }
+
+  .logo_media{
+      margin-top: 0%;
+    }
+  .white-circle .logo {
+    width: 8.5em !important;
+    height: 8.5em !important;
+    margin-left: 0%;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .welcome_text{
+    margin-top: 19% !important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-brand
+      {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  .logo_media{
+      margin-top: 36%;
+    }
+
+  .navbar-size{
+      height: 15%;
+    }
+
+
+  }
+@media (min-width: 992px) {
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 0.98em !important;
+  }
+}
+@media (min-width: 1024px) {
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 0.98em !important;
+  }
+}
+@media (min-width: 1200px) {
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 1.2em !important;
+  }
+
+  .welcome_text{
+      margin-top: 5% !important;
+  }
+}
+
+@media (min-width: 1336px) {
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 0.98em !important;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #034f52;
+    font-weight: 400;
+    opacity: 1 !important; }
+.logo_media{
+    margin-top: 36%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 1.2em !important;
+  }
+  .welcome_text{
+    margin-top: 19% !important;
+  }
+}
+
+.show{
+  background-color: #fff !important;
+  width: 100% !important;
+}
