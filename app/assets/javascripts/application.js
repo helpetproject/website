@@ -26,3 +26,10 @@
 //= require jquery.timepicker.min.js
 //= require scrollax.min.js
 //= require main.js
+
+$(document).ready(function () {
+  $('a').click(function(e){
+    e.preventDefault();
+    $('html, body').stop().animate({scrollTop: $($(this).attr('href')).offset().top - 140}, 1000);
+  });
+});
