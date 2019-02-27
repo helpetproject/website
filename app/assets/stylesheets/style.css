@@ -2225,13 +2225,13 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5); }
 
 .btn-outline-primary {
-  color: #78d5ef;
+  color: #01a0a3;
   background-color: transparent;
   background-image: none;
-  border-color: #78d5ef; }
+  border-color: #01a0a3; }
   .btn-outline-primary:hover {
     color: #212529;
-    background-color: #78d5ef;
+    background-color: #00a2a6;
     border-color: #78d5ef; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(120, 213, 239, 0.5);
@@ -6190,6 +6190,10 @@ button.bg-dark:focus {
 .my-5 {
   margin-top: 3rem !important; }
 
+.mt-7,
+.my-7 {
+  margin-top: 7rem !important; }
+
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important; }
@@ -7756,7 +7760,7 @@ h1, h2, h3, h4, h5,
   border-radius: 4px; }
   .cause-entry .img {
     display: block;
-    height: 300px; }
+    height: 220px; }
   @media (min-width: 768px) {
     .cause-entry .text {
       margin-top: -40px !important;
@@ -8060,8 +8064,8 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    -webkit-box-shadow: 20px 20px 0 0 #fcc4a8;
-    box-shadow: 20px 20px 0 0 #fcc4a8; }
+    -webkit-box-shadow: 20px 20px 0 0 #00a3a6;
+    box-shadow: 20px 20px 0 0 #00a3a6; }
   .block-3 .image.image-2:after {
     position: absolute;
     top: 0;
@@ -8069,8 +8073,8 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    -webkit-box-shadow: -20px 20px 0 0 #fcc4a8;
-    box-shadow: -20px 20px 0 0 #fcc4a8; }
+    -webkit-box-shadow: -20px 20px 0 0 #00a3a6;
+    box-shadow: -20px 20px 0 0 #00a3a6; }
   @media (max-width: 767.98px) {
     .block-3 .image {
       height: 300px; } }
@@ -8732,9 +8736,9 @@ textarea.form-control {
       height: 40px;
       line-height: 40px;
       border-radius: 50%;
-      border: 1px solid #fcc4a8; }
+      border: 1px solid #00a3a6; }
     .block-27 ul li.active a, .block-27 ul li.active span {
-      background: #fcc4a8;
+      background: #00a3a6;
       color: #f86f2d;
       border: 1px solid transparent; }
 
@@ -9221,7 +9225,7 @@ textarea.form-control {
 }
 
 .blue-text{
-  color: #01a0a3
+  color: #01a0a3 !important;
 }
 
 .h2_titles{ width:100%; text-align:center; border-bottom: 3px solid #01a0a3; line-height:0.1em; margin:10px 0 20px; }
@@ -9256,4 +9260,9 @@ textarea.form-control {
 
 .p_contact{
   font-size: 1.3em !important;
+}
+
+.form-control-border{
+  border: 0.2px solid !important;
+  border-color: #01a0a3 !important;
 }
