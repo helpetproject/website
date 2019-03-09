@@ -29,6 +29,10 @@
     margin-top: -3% !important;
   }
 
+  .mt-menu{
+    margin-top: -15% !important;
+  }
+
 }
 
 @media (min-width: 576px) {
@@ -63,6 +67,10 @@
   .welcome_text{
     margin-top: 19% !important;
   }
+
+  .mt-menu{
+    margin-top: 0% !important;
+  }
 }
 @media (min-width: 768px) {
   .navbar-brand
@@ -79,6 +87,9 @@
       height: 15%;
     }
 
+  .mt-menu{
+    margin-top: 0% !important;
+  }
 
   }
 @media (min-width: 992px) {
@@ -89,6 +100,10 @@
 @media (min-width: 1024px) {
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 0.98em !important;
+  }
+
+  .mt-menu{
+    margin-top: 7% !important;
   }
 }
 @media (min-width: 1200px) {
