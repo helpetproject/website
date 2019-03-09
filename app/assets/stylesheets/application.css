@@ -12,4 +12,21 @@
  *
  *= require_tree .
  *= require_self
+ *= require open-iconic-bootstrap.min.css
+ *= require animate.css
+ *= require owl.carousel.min.css
+ *= require owl.theme.default.min.css
+ *= require magnific-popup.css
+ *= require aos.css
+ *= require ionicons.min.css
+ *= require bootstrap-datepicker.css
+ *= require jquery.timepicker.css
+ *= require flaticon.css
+ *= require icomoon.css
+ *= require style.css
+ *= require menu.css
+ *= require font-awesome
+ *= require events
+ *= require sponsors
+ *= require searcher
  */
