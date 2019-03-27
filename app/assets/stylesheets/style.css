@@ -9266,3 +9266,8 @@ textarea.form-control {
   border: 0.2px solid !important;
   border-color: #01a0a3 !important;
 }
+
+#bg3{
+  background: url('/assets/bg3.png') no-repeat center;
+  background-size: auto 100% ;
+}

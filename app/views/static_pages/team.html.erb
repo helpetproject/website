@@ -1,2 +1,27 @@
-<h1>StaticPages#team</h1>
-<p>Find me in app/views/static_pages/team.html.erb</p>
+<section class="ftco-section team-section">
+  <div class="container-fluid mt-menu">
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-lg-10 ftco-animate text-center">
+        <h2 class="raleway_bold h2_titles"><span class="span_titles">Nuestro equipo</span></h2>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row text-center">
+        <% team_data.each do |team|%>
+          <div class="col-md-3 mb-5">
+            <div class="avatar mx-auto">
+              <img src="<%= team[:avatar] %>" class="rounded z-depth-1-half">
+            </div>
+            <h4 class="font-weight-bold dark-grey-text my-4"><%= team[:name] %></h4>
+            <h6 class="raleway_medium grey-text mb-3">
+              <%= team[:role] %>
+            </h6>
+            <%= link_to '<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>'.html_safe, team[:linkedin], class: 'blue-text' if team[:linkedin].present?%>
+          </div>
+        <%end%>
+      </div>
+
+    </div>
+  </div>
+</section>
