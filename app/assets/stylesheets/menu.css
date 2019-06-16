@@ -108,7 +108,7 @@
 }
 @media (min-width: 1200px) {
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 1.2em !important;
+    font-size: 1em !important;
   }
 
   .welcome_text{
