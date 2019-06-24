@@ -10,16 +10,15 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
- *= require animate.css
- *= require magnific-popup.css
- *= require aos.css
- *= require bootstrap-datepicker.css
- *= require jquery.timepicker.css
- *= require style.css
- *= require menu.css
- *= require font-awesome.css
+ *= require animate
+ *= require magnific-popup
+ *= require aos
+ *= require bootstrap-datepicker
+ *= require jquery.timepicker
+ *= require style
+ *= require menu
+ *= require font-awesome
  *= require events
  *= require sponsors
  *= require searcher
