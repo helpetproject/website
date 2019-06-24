@@ -75,3 +75,4 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'rubocop-rails'
 gem 'dotenv-rails'
+gem "browser"

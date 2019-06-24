@@ -4,11 +4,13 @@
         <div class="col-md-5 ftco-animate text-center welcome_text" data-scrollax=" properties: { translateY: '70%' }">
           <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Bienvenido a</h1>
           <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><%= image_tag 'helpet.png', height: 80, width: 200 %></p>
-          <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="<%= static_pages_donate_path %>" class="btn btn-info btn-outline-white px-5 py-3">Apóyanos</a></p>
+          <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="#donate" class="btn btn-info btn-outline-white px-5 py-3">Apóyanos</a></p>
       </div>
     </div>
 </div>
 
 <%= render 'adopt' %>
 <%= render 'download_app' %>
-<%= render 'contact' %>
+<%= render 'donate' %>
+
+<a href="https://<%= browser.device.mobile? ? 'api' : 'web'%>.whatsapp.com/send?phone=573185456733&amp;text=Hola HelPet Project." class="float" target="_blank"><i class="fa fa-whatsapp my-float"></i></a>
