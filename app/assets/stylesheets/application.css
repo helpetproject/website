@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_self
+ *= require whatsapp
  *= require animate
  *= require magnific-popup
  *= require aos
@@ -23,5 +24,4 @@
  *= require sponsors
  *= require searcher
  *= require team
- *= require whatsapp
  */
